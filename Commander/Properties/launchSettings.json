@@ -20,7 +20,7 @@
     "Commander": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/commands/1",
+      "launchUrl": "api",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

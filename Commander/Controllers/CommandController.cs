@@ -23,7 +23,7 @@ namespace Commander.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
-            var commandItems = _repositary.GetAppCommands();
+            var commandItems = _repositary.GetAllCommands();
 
             return Ok(commandItems);
         }
