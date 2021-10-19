@@ -13,7 +13,7 @@ namespace Commander.Controllers
     public class CommandsController : ControllerBase
     {
         private readonly ICommanderRepo _repositary;
-
+        
         public CommandsController(ICommanderRepo  repositary)
         {
             _repositary = repositary;
