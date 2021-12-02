@@ -12,6 +12,7 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
+        //sdded comment
         private readonly ICommanderRepo _repositary;
         
         public CommandsController(ICommanderRepo  repositary)
